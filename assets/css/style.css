@@ -1,0 +1,96 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    max-width: 100%;
+}
+ol, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header_section{
+
+}
+
+.header_section .top_bar{
+    background: #2e3094;
+    padding: 15px 0px;
+
+}
+
+.header_section .top_bar .top_menu{
+    text-align: right;
+   margin-right: 50px;
+}
+
+.header_section .top_bar .top_menu ul li{
+    display: inline-block;
+    padding: 5px 8px;
+   
+    
+}
+
+.header_section .top_bar .top_menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+  
+}
+
+.header_section .top_bar .top_menu ul li a:hover{
+    color: rgb(235, 129, 9);
+}
+
+.main_menu .navbar-brand img{
+    max-width: 160px;
+}
+
+.main_menu button{
+    border: none;
+    background: none;
+    
+}
+.search_btn{
+    margin-right: 200px;
+}
+
+.apply_btn a{
+    background-color: #2e3094;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.feature_item{
+    background: #0d1128;
+    padding: 20px 30px;
+}
+.feature_item img{
+    background: #fff;
+    width: 50px;
+    border: none;
+}
+.feature_item h4{
+  color: #fff;
+}
+
+.feature_item p{
+    color: #fff;
+    text-align: justify;
+  }
+
+  .feature_item_2 {
+    background: #2e3094;
+    padding: 20px 30px;
+  }
+  .feature_item_2 img{
+    background: #fff;
+    width: 50px;
+    border: none;
+}
+
