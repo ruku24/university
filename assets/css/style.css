@@ -4,7 +4,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", serif;
-    max-width: 100%;
+
+}
+body{
+    /* max-width: 100%; */
 }
 ol, ul, li{
     margin: 0;
@@ -66,9 +69,15 @@ ol, ul, li{
     border-radius: 5px;
 }
 
+.feature_section .row > *{
+    padding-right: 0px;
+    padding-left: 0px;
+    
+}
+
 .feature_item{
     background: #0d1128;
-    padding: 20px 30px;
+    padding: 25px 30px;
 }
 .feature_item img{
     background: #fff;
@@ -84,9 +93,9 @@ ol, ul, li{
     text-align: justify;
   }
 
-  .feature_item_2 {
+  .feature_item_2{
     background: #2e3094;
-    padding: 20px 30px;
+    padding: 25px 30px;
   }
   .feature_item_2 img{
     background: #fff;
@@ -94,3 +103,36 @@ ol, ul, li{
     border: none;
 }
 
+.feature_item_2 h4{
+    color: #fff;
+}
+
+.feature_item_2 p{
+    color: #fff;
+    text-align: justify;
+    /* font-size: 22px; */
+}
+
+
+/* offer section css */
+
+.offer_item .offer_icon{
+    /* background: #2E3094; */
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    /* position: relative; */
+
+}
+
+.offer_item .offer_icon img{
+    width: 50px;
+    /* position: absolute;
+    left: 6px;
+    top: 6px;
+     */
+    
+}
+
+
+/* offer section css end */
