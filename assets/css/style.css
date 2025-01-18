@@ -136,3 +136,22 @@ ol, ul, li{
 
 
 /* offer section css end */
+.faculties_item{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+.faculties_item img{
+    border-radius: 5px;
+
+}
+
+.faculties_content h4 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.faculties_content p{
+    text-align: justify;
+    color: #000;
+}
