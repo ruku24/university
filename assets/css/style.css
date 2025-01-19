@@ -58,7 +58,7 @@ ol, ul, li{
     
 }
 .search_btn{
-    margin-right: 200px;
+    margin-right: 150px;
 }
 
 .apply_btn a{
@@ -139,11 +139,15 @@ ol, ul, li{
 .faculties_item{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     margin-bottom: 15px;
-    padding: 10px 20px;
+    padding: 30px 20px;
 }
 .faculties_item img{
     border-radius: 5px;
 
+}
+.faculties_content h4 {
+    font-size: 20px;
+    padding: 10px 0px;
 }
 
 .faculties_content h4 a{
@@ -155,3 +159,169 @@ ol, ul, li{
     text-align: justify;
     color: #000;
 }
+
+
+/* event section css start */
+
+.event_item{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 15px;
+    padding: 30px 20px;
+}
+
+
+.event_item img{
+    border-radius: 5px;
+
+}
+.event_content h4 {
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.event_content h4 a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 10px 0px;
+    
+}
+
+.event_content p{
+    text-align: justify;
+    color: #000;
+}
+
+
+
+/* event css end */
+
+.alumni_item{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.alumni_item .card{
+    background-color:none;
+    border: none;
+}
+
+.alumni_social_media a{
+    color: #000;
+    padding: 5px;
+}
+
+
+.ranking_item{
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 20px;
+}
+
+.footer_section{
+    background: #232323;
+}
+
+.footer_section .footer_menu h4{
+    color: #fff;
+    font-size: 22px;
+}
+
+.footer_section .footer_menu ul li a{
+    text-decoration: none;
+    color: #b2a78f;
+    font-size: 13px;
+}
+
+.email input{
+    padding: 10px 20px;
+    border: none;
+}
+.email input:focus{
+    border: none;
+}
+
+.subscribe_btn a{
+    background: #2e3094;
+    color: #fff;
+    padding: 10px 80px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.footer_bottom{
+    border-top: 1px solid #fff;
+}
+
+.social_media a{
+    color: #fff;
+    margin: 5px;
+}
+
+.copyright  p{
+    color: #fff;
+    font-size: 14px;
+}
+
+/* about page css start */
+.inner_banner_section{
+    background: url(../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 110px 0px;
+}
+.inner_banner_content h2{
+    font-size: 20px;
+    color: #fff;
+}
+
+.inner_banner_content h3{
+    font-size: 16px;
+    color: #fff
+}
+.inner_banner_content a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* about page css end */
+
+/* admission page css */
+.admission_info ul li{
+    padding: 10px 0px;
+}
+.admission_info ul li a{
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    padding: 4px 0px;
+   
+}
+
+/* responsive css start */
+@media screen and (max-width:700px) {
+    .top_bar{
+        display: none;
+    }
+    .offer_item{
+        /* margin-bottom: 20px; */
+        padding: 15px 10px;
+    }
+    .offer_item p{
+        text-align: justify;
+    }
+    .search_btn{
+        margin-left: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .header_btn a{
+        margin-left: 25px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+/* responsive css end */
