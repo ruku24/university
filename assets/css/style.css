@@ -143,6 +143,7 @@ ol, ul, li{
 }
 .faculties_item img{
     border-radius: 5px;
+    height: 100%;
 
 }
 .faculties_content h4 {
@@ -158,6 +159,10 @@ ol, ul, li{
 .faculties_content p{
     text-align: justify;
     color: #000;
+    text-transform: capitalize;
+    font-size: 15px;
+    word-spacing: 0px;
+
 }
 
 
@@ -190,6 +195,9 @@ ol, ul, li{
 .event_content p{
     text-align: justify;
     color: #000;
+    text-transform: capitalize;
+    font-size: 15px;
+    word-spacing: 0px;
 }
 
 
