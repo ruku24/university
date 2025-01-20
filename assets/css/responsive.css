@@ -1,0 +1,25 @@
+/* responsive css start */
+@media screen and (max-width:700px) {
+    .top_bar{
+        display: none;
+    }
+    .offer_item{
+        /* margin-bottom: 20px; */
+        padding: 15px 10px;
+    }
+    .offer_item p{
+        text-align: justify;
+    }
+    .search_btn{
+        margin-left: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .header_btn a{
+        margin-left: 25px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+/* responsive css end */
