@@ -13,17 +13,41 @@ ol, ul, li{
     margin: 0;
     padding: 0;
 }
-
-
 .header_section{
-
 }
+
+
+.header_section .main_menu.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+   z-index: 999;
+   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   animation: fadeInDown;
+   animation-duration: .4s;
+   animation-name: menubar;
+   width: 100%;
+
+ 
+}
+@keyframes menubar{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0;
+    }
+}
+
+
 
 .header_section .top_bar{
     background: #2e3094;
     padding: 15px 0px;
+    
 
 }
+
 
 .header_section .top_bar .top_menu{
     text-align: right;
